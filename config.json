@@ -1,0 +1,8 @@
+{
+	"TTT Engine configuration file": "Version v1.0",
+	"Be careful when changin the content of this file": "",
+	"_": "_",
+	"eventsFile": "events.js",
+	"checkWinLoop": "false",
+	"winLoopInterval": "1"
+}
