@@ -19,7 +19,7 @@ You can set everything in *config.json* file. Here is it structure:
 	"winLoopInterval": "1000"
 }
 ```
-*eventsFile* defines the file with all events<br/>
+*eventsFile* defines the file with all events<br/><br/>
 *checkWinLoop* set to true if you want to use auto-checker. Basiclly it checks if someone won with interval of *winLoopInterval* (defined in miliseconds)
 
 # Game object structure
