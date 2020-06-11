@@ -4,13 +4,13 @@ TicTacToe game engine programmed using NodeJS
 
 # Functions
 After copying library to your directory, use `var ttte = require("PATH/TO/TTTE.js");`  
-\  
+\n  
 Use `ttte.marker.place(player, position);` to place marker. Player is "cross" or "circle", it defines the player that is placing the marker. Position is position where player want to place a marker (See "Game object structure" section for positioning help)  
-\  
+\n  
 Use `ttte.marker.game` to retrieve the JSON game object (See "Game object structure" section for help)  
-\  
+\n  
 Use `ttte.marker.checkWin()` to manually check if someone won (returns string "cross", "cricle" or "false")  
-\
+\n
 # Configuration
 You can set everything in *config.json* file. Here is it structure:
 ```json
