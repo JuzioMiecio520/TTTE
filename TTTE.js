@@ -2,9 +2,9 @@ console.log("Starting TTT Engine v1.0");
 console.log("[TTTE] Setting up files...");
 console.log("[TTTE] Setting up functions...");
 
-const ttte = require("./functions/basic.js");
-const marker = require("./functions/marker.js");
-const config = require("./config.json");
+const ttte = require("./functions/basic.js"); // Load basic functions file
+const marker = require("./functions/marker.js"); // Load marker functions file
+const config = require("./config.json"); // Load config file
 
 ttte.log("Reading configuration file...");
 ttte.log("Initialization complete!");
@@ -23,10 +23,10 @@ ttte.log(marker.game.aa);
 ttte.log("Win: " + marker.checkWin());
 */
 
-if(config.checkWinLoop == "true") {
-	marker.autoWinCheck();
+if(config.checkWinLoop == "true") { // Check if setting "checkWinLoop" is set to true
+	marker.autoWinCheck(); // Start loop
 }
 
 module.exports = {
-	marker: marker
+	marker: marker // Export "marker" variable for user use
 };
