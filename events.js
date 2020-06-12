@@ -13,7 +13,7 @@ module.exports = {
 		console.log(player + " put his marker on " + position);
 	},
 	win: function(winner, game) {
-		// THIS EVENT IS ONLY CALLED WHEN checkWinLoop IS SET TO TRUE IN CONFIG FILE!
+		// THIS EVENT IS ONLY CALLED WHEN checkWinLoop IS SET TO TRUE IN CONFIG FILE! 
 		// Event called when player wins. It's automaticly checked with interval of winLoopInterval (from config file)
 		// To manually check win use <marker class object>.checkWin() (returns "cross", "circle" or "false")
 		// winner is name of winner (cross or circle)
