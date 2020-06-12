@@ -17,7 +17,7 @@ marker.place("cross", "ba");
 marker.place("cross", "bb");
 marker.place("cross", "bc");
 marker.place("cross", "ca");
-marker.place("cross", "cb");
+marker.place("cross", "cb"); 
 marker.place("cross", "cc");
 ttte.log(marker.game.aa);
 ttte.log("Win: " + marker.checkWin());
