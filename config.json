@@ -4,5 +4,5 @@
 	"_": "_",
 	"eventsFile": "events.js",
 	"checkWinLoop": "false",
-	"winLoopInterval": "1"
+	"winLoopInterval": "1000"
 }
