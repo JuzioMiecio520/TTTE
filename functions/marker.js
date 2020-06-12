@@ -11,7 +11,7 @@ var game = {
 };
 
 // AA, AB, AC
-// BA, BB, BC
+// BA, BB, BC 
 // CA, CB, CC
 
 var config = require("../config.json");
